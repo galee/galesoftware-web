@@ -137,7 +137,7 @@ body {
 p {
 	line-height: 1.7em;
 	font-size: .9em;
-	margin: 0 0 20px 0;
+	margin: 0 0 30px 0;
 }
 
 ul {
@@ -186,11 +186,11 @@ h1, h2, h3, h4, h5, h6{
 
 blockquote, address {
 	margin: 0 0 30px 0;
-	padding: 0 30px 0 30px;
+	padding: 0 10px 0 10px;
 	font-style: italic;
-	font-size: 1.2em;
+	font-size: 0.6em;
 	font-family: Georgia, Times, "Times New Roman", serif;
-	border-left: 5px solid #ccb676;
+	border-left: 2px solid #ccb676;
 }
 
 code {
