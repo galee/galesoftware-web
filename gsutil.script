@@ -1,7 +1,9 @@
 gsutil cp *.html gs://www.galesoftware.co.uk
-gsutil cp -r gs_files gs://www.galesoftware.co.uk
+gsutil -m cp -r gs_files gs://www.galesoftware.co.uk
+gsutil -m acl ch -u AllUsers:R gs://www.galesoftware.co.uk/**/*
 
-
+gsutil cp blah.html gs://bucket1.galesoftware.co.uk
+gsutil cp gs_files/style.css gs://bucket1.galesoftware.co.uk/
 
 gsutil cp *.html gs://bucket1.galesoftware.co.uk
 gsutil -m acl ch -u AllUsers:R gs://bucket1.galesoftware.co.uk/*.html
@@ -10,3 +12,14 @@ gsutil -m cp -r  gs_files gs://bucket1.galesoftware.co.uk
 gsutil web set -m gs.html -e gs_files/404.html gs://bucket1.galesoftware.co.uk
 
 gsutil -m acl ch -u AllUsers:R gs://bucket1.galesoftware.co.uk/**/*
+
+
+# copy one bucket to another
+
+
+
+# Git create a branch and switch to it
+git checkout -b content_creation
+
+# Git push origin to content_creation branch
+git push origin content_creation
