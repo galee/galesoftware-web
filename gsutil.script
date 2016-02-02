@@ -1,0 +1,14 @@
+gsutil cp *.html gs://www.galesoftware.co.uk
+
+gsutil cp -r gs_files gs://www.galesoftware.co.uk
+
+
+
+gsutil cp *.html gs://bucket1.galesoftware.co.uk
+gsutil -m acl ch -u AllUsers:R gs://bucket1.galesoftware.co.uk/*.html
+
+gsutil -m cp -r  gs_files gs://bucket1.galesoftware.co.uk
+
+gsutil web set -m gs.html -e gs_files/404.html gs://bucket1.galesoftware.co.uk
+
+gsutil -m acl ch -u AllUsers:R gs://bucket1.galesoftware.co.uk/**/*
