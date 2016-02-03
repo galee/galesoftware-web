@@ -1,0 +1,12 @@
+aws s3 mb s3://uat.galesfotware.co.uk
+
+aws s3 mb s3://dev.galesfotware.co.uk
+
+aws s3 ls
+
+aws s3api put-object --acl public-read --bucket uat.galesfotware.co.uk
+
+
+aws s3 sync . s3://dev.galesfotware.co.uk
+
+aws s3 rm s3://dev.galesfotware.co.uk/.git
