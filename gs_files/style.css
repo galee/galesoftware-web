@@ -241,7 +241,7 @@ input[type="text"], textarea {
 	border-radius: 5px;
 	color: #6a6a6a;
 	border: 1px solid #ddd;
-	background:	#fafafa url(images/field_bkg.png) repeat-x;
+	background:	#fafafa;
 }
 
 input[type="text"]:focus {outline: none; background-color: #f7f7f7;}
@@ -386,7 +386,7 @@ a.action {
 #border-rave{
 	border-radius: 25px;
 	padding-top: 20px;
-	border: 2px solid #1B1B1B;
+	border: 2px solid #0A4C6A;
 	margin: 10px;
 }
 
@@ -566,7 +566,7 @@ a.action {
 #content .post {
 	margin: 0 0 30px 0px;
 	position: relative;
-	background: transparent url(images/dotted_line.gif) bottom repeat-x;
+	background: transparent url(images/line.gif) bottom repeat-x;
 	padding-bottom: 10px;
 	min-height: 250px;
 	width: 98%;
@@ -655,17 +655,26 @@ a.action {
 	font-size: 1.4em;
 	line-height: .7em;
 	padding: 0;
-	margin-bottom: 0;
+	margin-bottom: 20;
 	display: block;
 	color: #555555;
 	font-family: "Droid Serif", "Georgia", serif;
 }
 
 #subHead blockquote {
-	margin: 10px 0 30px 0;
+	margin: 10px 0 10px 0;
 	padding: 0 10px 0 10px;
 	font-style: italic;
 	font-size: 1.1em;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	border-left: 2px solid #ccb676;
+}
+
+#pageHead blockquote {
+	margin: 10px 0 10px 0;
+	padding: 0 10px 0 10px;
+	font-style: italic;
+	font-size: 1.3em;
 	font-family: Georgia, Times, "Times New Roman", serif;
 	border-left: 2px solid #ccb676;
 }
@@ -813,6 +822,7 @@ a.button-margin {
 	position: absolute;
   bottom: 20px;
 	left: 115px;
+	background-color: #0A4C6A
 }
 
 #searchsubmit {
