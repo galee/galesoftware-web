@@ -1,6 +1,6 @@
-gsutil cp *.html gs://www.galesoftware.co.uk
-gsutil -m cp -r gs_files gs://www.galesoftware.co.uk
-gsutil -m acl ch -u AllUsers:R gs://www.galesoftware.co.uk/**/*
+gsutil.cmd cp *.html gs://www.galesoftware.co.uk
+gsutil.cmd -m cp -r gs_files gs://www.galesoftware.co.uk
+gsutil.cmd -m acl ch -u AllUsers:R gs://www.galesoftware.co.uk/**/*
 
 gsutil cp blog.html gs://bucket1.galesoftware.co.uk
 gsutil cp gs_files/style.css gs://bucket1.galesoftware.co.uk/

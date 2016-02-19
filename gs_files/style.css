@@ -341,10 +341,21 @@ a.action {
 #detail-box {
 	width: 100%;
 	margin: 0 auto;
-	font-size: 1.5em;
+	font-size: 0.9em;
 	color: #555555;
 	margin: 0;
 }
+
+#detail-box h3 {
+	font-size: 1.2em;
+	color: #555555;
+}
+
+#detail-box p {
+	font-size: 1.0em;
+	color: #555555;
+}
+
 
 
 /*////////////////////////////////////////////////////////////////////////
