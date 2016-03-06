@@ -1,0 +1,24 @@
+{
+  "requests":[
+    {
+      "image":{
+        "content":"base64"
+      },
+      "features":[
+        {
+          "type":"TEXT_DETECTION",
+          "maxResults":10
+        }
+      ]
+    }
+  ]
+}
+
+
+cat vision_api | sed "s:base64:$(base64 car1.jpg):" > blah
+
+
+curl -v -k -s https://maps.googleapis.com/maps/api/directions/json?origin=sa34ah&destination=w130lw&key=AIzaSyD22zRgu5guoPMBWBHKJslRDpQZaIR6hMk
+
+
+curl -v -k -s https://maps.googleapis.com/maps/api/directions/json?origin=Toronto&destination=Montreal&key=AIzaSyD22zRgu5guoPMBWBHKJslRDpQZaIR6hMk
