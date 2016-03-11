@@ -56,10 +56,6 @@ for samp in sample_population:
     prev_samp = samp
 
 
-
-
-
-
 postcodes = [line.rstrip() for line in open('ukpostcodes.csv')]
 s = [p for p in postcodes if p.split(",")[1].startswith("SA3 4AH")]
 s1 = [p for p in postcodes if p.split(",")[1].startswith("EX39 4JF")]
