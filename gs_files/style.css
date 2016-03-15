@@ -23,6 +23,27 @@ TABLE OF CONTENTS
 12 - Media Queries
 */
 
+#scroll {
+width:1000px;
+height:330px;
+margin:0px;
+overflow-x:auto;
+/*overflow-y: scroll;*/
+white-space:nowrap;
+}
+
+#first {
+		font-size: 4em;
+		float:left;
+		vertical-align:top;
+
+}
+#second {
+		width:200px;
+		float:left;
+}
+
+
 /* /////////////////////////////////////////////////////////////////////
 //  01 - Reset
 /////////////////////////////////////////////////////////////////////*/
